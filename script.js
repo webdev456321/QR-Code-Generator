@@ -4,6 +4,8 @@ let img1=document.createElement('img')
 let p=document.getElementsByTagName('p')[0]
 let copyImgBtn=document.createElement('button')
 copyImgBtn.textContent="Copy Image"
+copyImgBtn.classList.add('hide')
+
 
 form1.addEventListener('submit',(e)=>{
 e.preventDefault()
