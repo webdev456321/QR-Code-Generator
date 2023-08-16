@@ -2,5 +2,5 @@
 
 A simple QR-Code-Generator made using HTML,CSS(and tachyons) and Javascript
 (DOM-API and QR-code API by goQR)
-(google fonts poppins)
+(Google fonts: poppins)
 
