@@ -1,0 +1,31 @@
+body{
+    margin:0 auto;
+    font-style: italic;
+    font-family:'Poppins',sans-serif;
+    background-color: rgb(77, 77, 77);
+    color:white;
+    font-weight:bolder;
+    }
+
+input:hover{
+    color:blue;
+}
+img{
+    margin-bottom:3%;
+}
+footer{
+    position: absolute;
+    right:0;
+    top:20%;
+    writing-mode: vertical-lr;
+    background: pink;
+    padding:10px;
+    font-size:1.5em;
+    }
+
+@media screen and (max-width:500px){
+    footer{
+        font-size:1em;
+        top:30%;
+    }
+}
