@@ -1,6 +1,6 @@
 # QR-Code-Generator
 
 A simple QR-Code-Generator made using HTML,CSS(and tachyons) and Javascript
-(DOM-API and QR-code API by goQR)\n
+(DOM-API and QR-code API by goQR)
 (google fonts poppins)
 
