@@ -2,9 +2,7 @@ let input1=document.getElementsByTagName('input')[0];
 let form1=document.getElementsByTagName('form')[0]
 let img1=document.createElement('img')
 let p=document.getElementsByTagName('p')[0]
-let copyImgBtn=document.createElement('button')
-copyImgBtn.textContent="Copy Image"
-copyImgBtn.classList.add('hide')
+
 
 
 form1.addEventListener('submit',(e)=>{
@@ -24,23 +22,6 @@ form1.style.paddingBottom='100px'
 img1.style.borderRadius='10px'
 p.textContent='Scan the QR with your phone'
 form1.appendChild(copyImgBtn)
-
 }
-
 })
 
-copyImgBtn.addEventListener('click',()=>{
-    var range=document.createRange()
-    range.selectNode(img1)
-    window.getSelection().addRange(range);
-
-    try{
-        document.execCommand('copy')
-    }
-    catch(err){
-        console.log(msg)
-    }
-    
-    window.getSelection().removeAllRanges()
-}
-)
